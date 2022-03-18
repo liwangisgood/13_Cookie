@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+           <center>
+               <font style="color:red;font-size:40px">点餐页面</font>
+               <!-- /开头 前台路径的参照路径是 Web 服务器的根路径，即 http://127.0.0.1:8080-->
+               <form action="/myWeb/twoServlet">
+                   食物类型:<input type="radio" name="food" value="饺子"/>饺子(30元)
+                   <input type="radio" name="food" value="面条"/>面条(20元)
+                   <input type="radio" name="food" value="盖饭"/>盖饭(15元)<br/>
+                   <input type="submit" value="划卡消费">
+               </form>
+
+           </center>
+</body>
+</html>
